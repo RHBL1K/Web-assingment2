@@ -146,6 +146,21 @@ p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Champions*/
 .champions_main { 
     padding: 20px; 
     background-color: #f4f4f4; 
@@ -228,6 +243,87 @@ p{
     padding-left: 20px; 
     padding-right: 20px; 
     color: black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Us Page Styles */
+.contact-header {
+    background-color: bisque;
+    height: 100px;
+}
+
+.contact-nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.contact-link:hover {
+    color: rgb(112, 103, 236);
+    transform: scale(1.2);
+}
+
+.contact-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-table-label {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.contact-table-info {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-instagram {
+    color: #dc143c;
+}
+
+.contact-instagram:hover {
+    color: #333;
 }
 
 
