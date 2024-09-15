@@ -1,0 +1,114 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+   } 
+   /* *, *:before, *:after{ 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+   } 
+   :focus, :active{outline: none;} 
+   a:focus, a:active{outline: none;} 
+    
+   nav,footer,header,aside{display: block;} 
+    
+   html, body{ 
+    height: 100%; 
+    width: 100%; 
+    font-style: 100%; 
+    line-height: 1; 
+    font-style: 14px; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+   }  */
+    
+   /* input, button, textarea{font-family: inherit;} 
+    
+   input::-ms-clear{display:none;} 
+   button{cursor: pointer;} 
+   button::-moz-focus-inner{padding: 0;border: 0;} 
+   a, a:visited{text-decoration: none;} 
+   a:hover{text-decoration: none;} 
+   ul li{list-style-type: none;} 
+   img{vertical-align: top;} 
+    
+   h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;} */
+
+
+header {
+    background-color: bisque;
+    height: 100px;
+}
+nav{
+    padding-top:30px;
+    display:flex;
+    justify-content: space-around;
+    font-size:25px;
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+    transition: transform 0.3s ease;
+}
+a:hover {
+    color: rgb(112, 103, 236); 
+    transform: scale(1.2);
+}
+.Main_page_main{
+    background-image: url("new_background.jpg");
+    background-size: cover;
+    height:1100px;
+    width:100%;
+}
+.title{
+    text-align: center;
+    padding-top: 40px;
+    color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+}
+span{
+    color:antiquewhite;
+}
+p{
+    padding-top:50px;
+    padding-left: 40px;
+    color:white;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title2{
+    margin-top:30px;
+    text-align: center;
+    padding-top: 40px;
+    color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+}
+.tecniques{
+    display:flex;
+    justify-content: space-around;
+    height:600px;
+}
+.tecnique1{
+    width: 700px;
+    height: 650px;
+    border: 2px solid rgb(255, 0, 0);
+}
+.tecnique2{
+    width: 700px;
+    height: 650px;
+    border: 2px solid rgb(255, 0, 0);
+}
+.tecnique1_img_сontainer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    border: 2px solid white;
+}
