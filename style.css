@@ -449,13 +449,12 @@ p{
 
 .main-Rules {
     background-color: #e4e4e4;
-    background-image: url("images.jpg");
     margin: 0;
     padding: 0;
 }
 
 .content {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     text-align: center;
     flex: 1;
